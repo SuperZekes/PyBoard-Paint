@@ -5,7 +5,7 @@ class PaintApp(tk.Tk):
     def __init__(self):
         super().__init__()
         
-        self.title("PyBoard Paint")
+        self.title("Whiteboard")
         self.geometry("700x600")
 
         self.canvas = tk.Canvas(self, bg="white", width=500, height=500)
