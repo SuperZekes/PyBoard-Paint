@@ -15,7 +15,7 @@ class PaintApp(tk.Tk):
         self.canvas.bind("<Shift-B1-Motion>", self.erase)
         self.canvas.bind("<ButtonRelease-1>", self.reset_pos)
 
-        self.color = "blue"
+        self.color = "black"
         self.erase_color = "white"
         
         self.brush_size = 10
